@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> Home Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f9f9f9;
+    }
+
+    
+    .content-box {
+        width: 800px;               /* chiều rộng khung */
+        margin: 30px auto;          /* canh giữa ngang */
+        border: 2px solid #000;     /* viền đen */
+        background: #fff;           /* nền trắng trong khung */
+        padding: 20px;              /* khoảng cách nội dung với viền */
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    header img { height: 60px; }
+
+    nav {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    nav a {
+        margin: 0 20px;
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .column {
+        width: 45%;
+    }
+    .column h2 {
+        border-bottom: 2px solid #000;
+        margin-top: 0;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 0.9em;
+        color: #333;
+    }
+    footer a {
+        color: #0066cc;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+
+<!-- Bắt đầu khung từ logo trở đi -->
+<div class="content-box">
+
+    <header>
+        <img src="logoutc2.png" alt="University Logo">
+         <h2 class="school-name">TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI</h2>
+        <h1></h1>
+    </header>
+
+    <nav>
+        <a href="#">Presentation</a>
+        <a href="#">Studies</a>
+        <a href="#">Staff</a>
+    </nav>
+
+    <div class="main">
+        <div class="column">
+            <h2>News</h2>
+            <p><strong>News 1</strong> – Date<br>Description</p>
+            <p><strong>News 2</strong> – Date<br>Description</p>
+        </div>
+        <div class="column">
+            <h2>Announcements</h2>
+            <p><strong>Open course 1</strong><br>Description</p>
+            <p><strong>Open course 2</strong><br>Description</p>
+        </div>
+    </div>
+
+    <footer>
+        Contact: <a href="mailto:info@university.com">info@university.com</a><br>
+        &copy; University, 2011
+    </footer>
+
+</div> 
+
+</body>
+</html>
